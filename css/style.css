@@ -298,3 +298,56 @@ select {
 .btn-back-user:hover {
   text-decoration: underline;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .container,
+  .card,
+  .box {
+    width: 94%;
+    padding: 18px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  button {
+    border-radius: 12px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .stock-card {
+    padding: 16px;
+  }
+}
+
